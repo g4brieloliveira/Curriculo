@@ -3,6 +3,7 @@
   font-family: 'Poppins', sans-serif;
 
   --primary-color: rgb(0, 255, 234);
+  --secondary-color: rgb(204, 204, 204);
 }
 
 * {
@@ -14,5 +15,45 @@
 }
 
 body {
-  background-color: #ccc;
+  background-color: var(--secondary-color);
+}
+
+
+
+footer {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+
+  align-items: center;
+
+  background-color: var(--primary-color);
+}
+
+.credits {
+  width: 50%;
+
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.credits a {
+  color: black;
+}
+
+.text {
+  width: 50%;
+}
+
+.text p {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding-left: 1rem;
+  border-left: 1px solid black;
+}
+
+.text p img {
+  width: 1rem;
 }

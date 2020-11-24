@@ -10,13 +10,14 @@ function Apresentation () {
         <div className="texts">
           <div className="hello">
             <p>Olá, seja bem-vindo(a)</p>
-            <h1>Meu nome é <span>Gabriel Oliveira</span></h1>
-            <h2>Estudante de Desenvolvimento Web</h2>
+            <h2><span>Gabriel Oliveira</span>
+            <br/>Estudante de Desenvolvimento Web</h2>
           </div>
           <div className="informations">
             <p><strong>Idade: </strong>18</p>
             <p><strong>Email: </strong>g4bri3l.0lv@gmail.com</p>
-            <p><strong>Idade: </strong>18</p>
+            <p><strong>Estado: </strong>MG</p>
+            <p><strong>Cidade: </strong>BH</p>
           </div>
         </div>
       </div>

@@ -53,7 +53,7 @@
 }
 
 .texts .hello span {
-  color: var(--primary-color);
+  font-weight: bold;
 }
 
 .texts .hello h2 {

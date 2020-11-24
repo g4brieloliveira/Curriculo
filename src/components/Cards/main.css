@@ -1,0 +1,64 @@
+.cards-total {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-container {
+  margin-top: 10rem;
+  width: 80vw;
+  padding: 1rem;
+  
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.about-me {
+  width: 60%;
+  border-right: 1px solid black;
+  padding-right: .5rem;
+}
+
+.curriculo {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.curriculo p {
+  margin-bottom: .5rem;
+
+  font-weight: bold;
+}
+
+.curriculo a {
+  background-color: var(--primary-color);
+
+  padding: .6rem;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+  transform: scale(0.9);
+  transition: all ease .3s;
+}
+
+.curriculo a:hover {
+  transform: scale(1);
+}
+
+.curriculo img{
+  width: 2rem;
+  height: 2rem;
+}
