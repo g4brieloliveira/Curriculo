@@ -1,0 +1,56 @@
+:root {
+  
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 25vh;
+  padding: 2rem;
+
+  background-color: var(--primary-color);
+}
+
+.initial-text a{
+  text-decoration: none;
+  font-size: 1.5rem;
+
+  color: black;
+}
+
+.initial-text p {
+  font-size: 1.2rem;
+
+  font-weight: 500;
+}
+
+.contacts-icons {
+  width: 40%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacts-icons a {
+  padding: .7rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: scale(0.9);
+  transition: all ease .3s;
+}
+
+.contacts-icons a:hover{
+  transform: scale(1)
+}
+
+.contacts-icons img {
+  width: 1.5rem;
+  height: 1.5rem;
+}

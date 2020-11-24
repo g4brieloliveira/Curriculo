@@ -1,0 +1,73 @@
+.total {
+  background-color: red;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+  width: 80vw;
+
+  display: flex;
+  background-color: white;
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.container img {
+  width: 50%;
+}
+
+.texts {
+  width: 50%;
+  padding: 1rem;
+}
+
+.texts .hello {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  padding-bottom: .5rem;
+  border-bottom: 1px solid black;
+}
+
+.texts .hello p {
+  width: 70%;
+  font-size: .7rem;
+
+  padding: .5rem;
+  color: black;
+
+  border-radius: .4rem;
+
+  background-color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: .4rem;
+}
+
+.texts .hello h1 {
+  font-size: 1rem;
+}
+
+.texts .hello span {
+  color: var(--primary-color);
+}
+
+.texts .hello h2 {
+  font-size: .8rem;
+
+  font-weight: 400;
+}
+
+.texts .informations {
+  padding-top: .5rem;
+
+  font-size: 80%;
+}
+
+.texts .informations strong{
+  margin-right: .5rem;
+}
