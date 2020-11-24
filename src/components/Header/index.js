@@ -11,10 +11,10 @@ function Header() {
 			</div>
 
 			<div className="contacts-icons">
-				<a href=""><img src="https://www.flaticon.com/svg/static/icons/svg/81/81323.svg" alt="Github"/></a>
-				<a href=""><img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111532.svg" alt="LinkedIn"/></a>
-				<a href=""><img src="https://www.flaticon.com/svg/static/icons/svg/733/733635.svg" alt="Twitter"/></a>
-				<a href=""><img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384031.svg" alt="Instagram"/></a>
+				<a href="https://github.com/g4brieloliveira"><img src="https://www.flaticon.com/svg/static/icons/svg/81/81323.svg" alt="Github"/></a>
+				<a href="https://www.linkedin.com/in/g4brieloliveira/"><img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111532.svg" alt="LinkedIn"/></a>
+				<a href="https://twitter.com/gabreuolv_"><img src="https://www.flaticon.com/svg/static/icons/svg/733/733635.svg" alt="Twitter"/></a>
+				<a href="https://www.instagram.com/gabreuolv_/"><img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384031.svg" alt="Instagram"/></a>
 			</div>
 		</header>
 	)
