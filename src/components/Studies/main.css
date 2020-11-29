@@ -1,0 +1,54 @@
+.card-total {
+  display: flex;
+  justify-content: center;
+
+  height: 100%;
+} 
+
+.cards {
+  margin-top: 3rem;
+  width: 80vw;
+  padding: 1rem;
+  
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+  margin-bottom: .5rem;
+}
+
+.one-card {
+  display: flex;
+
+  margin-bottom: .5rem;
+}
+
+.name {
+  width: 40%;
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+
+.name p {
+  font-size: 1rem;
+}
+
+.name p+p {
+  padding-top: .2rem;
+  font-size: .9rem;
+}
+
+.about {
+  border: 1px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}

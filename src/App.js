@@ -3,14 +3,20 @@ import './App.css';
 import Header from './components/Header';
 import Apresentation from './components/Apresentation';
 import Cards from './components/Cards';
+import Studies from './components/Studies';
+import Works from './components/Works';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Apresentation />
-      <Cards />
-      
+      <main>
+        <Header />
+        <Apresentation />
+        <Cards />
+        <Studies />
+        <Works />
+      </main>
+
       <footer>
         <div className="credits">
           <p>Logos retiradas do site <a href="https://www.flaticon.com">Flaticon</a></p>

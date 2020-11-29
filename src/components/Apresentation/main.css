@@ -1,6 +1,4 @@
 .total {
-  background-color: red;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,4 +68,12 @@
 
 .texts .informations strong{
   margin-right: .5rem;
+}
+
+
+@media(min-width: 760px) {
+  .container {
+    width: 50vw;
+    position: relative;
+  }
 }
