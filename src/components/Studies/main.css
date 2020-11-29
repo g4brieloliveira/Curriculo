@@ -52,3 +52,26 @@ h2 {
   align-items: center;
   padding: 1rem;
 }
+
+@media(min-width: 760px) {
+  .cards {
+    margin-top: 3rem;
+    width: 60vw;
+    height: 20rem;
+
+    font-size: 120%;
+  }
+
+  .one-card {
+    width: 80%;
+    height: 70%;
+  }
+
+  .one-card .name p {
+    font-size: 105%;
+  }
+
+  .one-card .about p {
+    font-size: 105%;
+  }
+}

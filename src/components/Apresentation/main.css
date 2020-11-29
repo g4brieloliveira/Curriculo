@@ -73,7 +73,24 @@
 
 @media(min-width: 760px) {
   .container {
-    width: 50vw;
     position: relative;
+    margin-top: 3rem;
+
+    width: 60vw;
+    height: 20rem;
+  }
+
+  .container img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .texts{
+    font-size: 150%;
+  }
+
+  .container .texts .hello p,
+  .container .texts .hello h2{
+    font-size: 110%;
   }
 }

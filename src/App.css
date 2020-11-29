@@ -57,3 +57,27 @@ footer {
 .text p img {
   width: 1rem;
 }
+
+@media(min-width: 760px) {
+  footer {
+    height: 5rem;
+    font-size: 120%;
+  }
+
+  .credits {
+    text-align: center;
+  }
+
+  .text {
+    width: 50%;
+  }
+
+  .text p {
+    display: inherit;
+    text-align: center;
+  }
+
+  .text img {
+    margin: 0 .2rem;
+  }
+}
