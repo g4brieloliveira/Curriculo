@@ -3,16 +3,16 @@ import Footer from "../../components/Footer";
 
 import './style.css'
 
-function Studies() {
+function Experience() {
   return (
-    <div className="studies">
+    <div className="experience">
       <Header />
       <div className="content">
-        <h1>Estudos</h1>
+        <h1>Experiência</h1>
       </div>
       <Footer />
     </div>
   );
 }
 
-export default Studies;
+export default Experience;
