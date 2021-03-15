@@ -1,6 +1,14 @@
+.content{
+  overflow-y: scroll;
+}
+
+.content .institutions{
+  border-bottom: 1px solid black;
+}
+
 .content .institutions,
 .content .courses {
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 
@@ -13,9 +21,10 @@
   margin-bottom: .5rem;
 }
 
-.content .divider {
-  width: 50vw;
-  height: 1px;
+.content .institutions:first-child{
+  margin-top: 20rem;
+}
 
-  background-color: black;
+.content .courses:last-child{
+  margin-bottom: 5rem;
 }
