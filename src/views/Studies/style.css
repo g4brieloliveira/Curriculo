@@ -1,0 +1,21 @@
+.content .institutions,
+.content .courses {
+  margin: 1rem 0;
+}
+
+
+.content .institutions > p,
+.content .courses > p{
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: .5rem;
+}
+
+.content .divider {
+  width: 50vw;
+  height: 1px;
+
+  background-color: black;
+}
