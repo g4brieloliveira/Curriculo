@@ -76,3 +76,31 @@
     transform: translateX(10%);
   }
 }
+
+@media(min-width: 780px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .header .title {
+    font-size: 1.8rem;
+  }
+
+  .header .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    width: 65%;
+  }
+  
+  .header .links a{
+    font-size: 1rem;
+  }
+  
+  .header .links a img{
+    width: .7rem;
+    height: .7rem;
+    margin-left: .5rem;
+  }
+}

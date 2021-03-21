@@ -8,7 +8,7 @@ function Studies() {
   return (
     <div className="studies">
       <Header />
-      <div className="content">
+      <div className="content divide">
         <div className="institutions">
           <p>Instituições de ensino</p>
           <Card iDo="Ensino Médio Técnico" local="IFMG" description="De 2019 até 2021 fiz o meu ensino médio juntamente ao tecnico em informática no Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais no Campus Ribeirão das Neves"/>

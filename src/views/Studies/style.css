@@ -28,3 +28,39 @@
 .content .courses:last-child{
   margin-bottom: 5rem;
 }
+
+@media(min-width: 780px) {
+  
+
+  .divide {
+    flex-direction: row;
+
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .institutions,
+  .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5rem;
+    padding: 0 1rem;
+    width: 50%;
+  }
+
+  .content .institutions{
+    border-bottom: 0;
+  }
+
+  .content .courses {
+    border-left: 1px solid black;
+  }
+
+
+  .content .institutions:first-child{
+    margin-top: 5rem;
+  }
+}
