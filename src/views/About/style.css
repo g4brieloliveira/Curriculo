@@ -1,0 +1,61 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.about h1 {
+  text-align: center;
+  margin-top: 5rem;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.about .aboutContent {
+  padding: 1rem;
+  overflow-y: scroll;
+  margin-bottom: 5rem;
+}
+
+.about .aboutContent img {
+  width: 45%;
+  position: relative;
+  margin: 0 .5rem .5rem 0;
+}
+
+.about .aboutContent p a {
+  color: black;
+}
+
+.about .aboutContent > p{
+  width: 50%;
+  float: right;
+  text-align: justify;
+
+  font-family: 'Inter', sans-serif;
+}
+
+.about .aboutContent .text {
+  width: 100%;
+}
+
+.about .aboutContent .download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36rem;
+  width: 100%;
+  background-color: rgb(35, 232, 232);
+  padding: .5rem;
+  border: 1.5px solid black;
+  border-radius: 6px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1rem;
+}
+
+.about .aboutContent .download img {
+  width: 1.8rem;
+  margin-left: .5rem;
+}

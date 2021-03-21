@@ -41,6 +41,7 @@
   font-weight: 600;
   font-family: 'Rajdhani', sans-serif;
   font-size: 1rem;
+  text-align: center;
 }
 
 .card .infos .description {
@@ -52,5 +53,5 @@
   text-align: start;
   font-weight: 500;
   font-family: 'Inter', sans-serif;
-  font-size: .9rem;
+  font-size: .8rem;
 }
