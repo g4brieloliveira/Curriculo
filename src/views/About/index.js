@@ -1,6 +1,3 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-
 import myPhoto from '../../assets/linkedInImg.jpeg'
 import curriculum from '../../assets/01_GabrielOliveira_.pdf'
 
@@ -9,7 +6,6 @@ import '../About/style.css'
 function About() {
   return (
     <div className="about">
-      <Header />
       <h1>Sobre mim</h1>
       <div className="aboutContent">
         <img src={ myPhoto } alt="Minha foto"/>
@@ -21,7 +17,6 @@ function About() {
           <br></br><br></br>Para entrar em contato comigo pode ser via chat privado do LinkedIn ou pelo email: <a href="mailto: g4brieloliveira.dev@gmail.com" target="_blank" rel="noopener noreferrer">g4brieloliveira.dev@gmail.com</a></p>
         <a target="_blank" rel="noopener noreferrer" href={ curriculum } className="download" download>Download do meu currículo <img src="https://www.flaticon.com/svg/static/icons/svg/2427/2427461.svg" alt=""/></a>
       </div>
-      <Footer />
     </div>
   );
 }

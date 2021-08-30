@@ -1,14 +1,13 @@
 import React from 'react';
-import Heart from '../../assets/heart.svg'
 
-import './style.css'
+import { MainView, Text, Icon } from './styles.js'
 
-function Footer() {
+export const Footer = () => {
   return (
-    <footer>
-      <p>Feito com <img src={ Heart } alt=""/> por Gabriel Oliveira</p>
-    </footer>
+    <MainView>
+      <Text>Feito com<Icon style={{ fontSize: 15 }}/>por Gabriel Oliveira</Text>
+    </MainView>
   );
 }
 
-export default Footer;
+ 

@@ -1,21 +1,19 @@
-import React from 'react';
+import React from 'react'
 
-import './style.css'
+import {
+    CardView,
+    UpperInfos,
+    CourseInfo
+} from './styles'
 
-function Studies({iDo, local, description}) {
-  return (
-    <div className="card">
-      <p>{ iDo }</p>
-      <div className="infos">
-        <div className="local">
-          <p>{ local }</p>
-        </div>
-        <div className="description">
-          <p>{ description }</p>
-        </div>
-      </div>
-    </div>
-  );
+export const Card = ({data, local, course, photo}) => {
+    return (
+        <CardView>
+            <UpperInfos>
+                <p>{ data }</p>
+                <p>{ local }</p>
+            </UpperInfos>
+            <CourseInfo>{ course }</CourseInfo>
+        </CardView>
+    )
 }
-
-export default Studies;

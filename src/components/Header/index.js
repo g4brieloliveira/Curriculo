@@ -1,21 +1,32 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
-import Arrow from '../../assets/arrow.svg'
-import './style.css'
+import { 
+  Main, 
+  Title,
+  Links, 
+  Menu,
+  MenuIcon,
+  ExperienceIcon,
+  AboutMeIcon,
+  Logo,
+  Description
+} from './styles.js'
 
-function Header() {
+export const Header = () => {
+
   return (
-    <div className="header">
-      <a className="title" href="/">Bem-Vindo(a)!</a>
-      <div className="links">
-        <Link to="/">Início <img src={ Arrow } alt=""/></Link>
-        <Link to="/studies">Estudos <img src={ Arrow } alt=""/></Link>
-        <Link to="/experience">Experiência <img src={ Arrow } alt=""/></Link>
-        <Link to="/about">Sobre mim <img src={ Arrow } alt=""/></Link>
-      </div>
-    </div>
-  );
+      <>
+        <Main>
+            <Logo href="/">
+              <Title>Gabriel Oliveira</Title>
+              <Description href="/">Mobile and Front End Developer</Description>
+            </Logo>
+          <Menu>
+            <Links to="/"><MenuIcon /> Início</Links>
+            <Links to="/experience"><ExperienceIcon /> Experiência</Links>
+            <Links to="/about" style={{ border: 0 }}><AboutMeIcon /> Sobre mim</Links>   
+          </Menu>
+        </Main>
+      </>
+  )
 }
-
-export default Header;

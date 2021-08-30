@@ -1,22 +1,45 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import { 
+	MainView,
+	WhatIAm,
+	WhatIDo,
+	FirstSectionView,
+	Texts,
+	DeveloperImage,
+	ScrollToImage
+} from './styles.js'
 
-import myPhoto from '../../assets/my_photo.jpeg'
+import { Studies } from '../Studies'
+import { Infos } from '../Infos'
 
-import './style.css'
+import ScrollTo from '../../assets/scroll.png';
 
-function Home() {
-  return (
-    <div className="home">
-      <Header />
-      <div className="content">
-        <img src={ myPhoto } alt="Minha Foto"/>
-        <h2>Gabriel Oliveira</h2>
-        <h3>Júnior Front-End Developer</h3>
-      </div>
-      <Footer />
-    </div>
+
+export const Home = () => {
+	const DESCRIPTION_TEXT = `Meu nome é Gabriel, tenho 18 anos e sou de Belo Horizonte - MG.
+	Estou no Terceiro Ano do Ensino Médio juntamente com Técnico em Informática no IFMG e 
+	estou em busca de uma vaga de estágio para iniciar minha carreira.
+	Atualmente estou estudando através de cursos da Zero to Mastery Academy o desenvolvimento 
+	de aplicações Web e Mobile utilizando ReactJS e React Native.
+	`
+
+  	return (
+		<MainView>
+			<FirstSectionView>
+				<Texts>
+					<WhatIAm>Mobile and Frontend Developer</WhatIAm>
+					<WhatIDo>{ DESCRIPTION_TEXT }</WhatIDo>
+					<WhatIDo style={{ color: "#f00", marginTop: "40px", fontWeight: "bold" }}>ESTE SITE AINDA ESTÁ EM DESENVOLVIMENTO!!</WhatIDo>
+					<WhatIDo style={{ color: "#f00", fontWeight: "bold" }}>Proximas atualizações:</WhatIDo>
+					<WhatIDo style={{ color: "#f00", fontWeight: "bold" }}> - Arrumar as outras abas</WhatIDo>
+					<WhatIDo style={{ color: "#f00", fontWeight: "bold" }}> - Adicionar as fotos aos Cards</WhatIDo>
+					<WhatIDo style={{ color: "#f00", fontWeight: "bold" }}> - Adicionar a responsividade</WhatIDo>
+					<WhatIDo style={{ color: "#f00", fontWeight: "bold" }}> - Adicionar animações</WhatIDo>
+				</Texts>
+				<DeveloperImage />
+			</FirstSectionView>
+			<ScrollToImage src={ ScrollTo } alt="Tem mais para baixo :)"/>
+			<Studies />
+			<Infos />
+		</MainView>
   );
 }
-
-export default Home;
