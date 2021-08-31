@@ -32,6 +32,12 @@ export const Texts = styled.div`
     margin-top: ${ spacingSizes.xxExtraLarge };
 `;
 
+export const SmallScreenTexts = styled.div`
+    width: 100%;
+    padding: ${ spacingSizes.large };
+    margin-top: ${ spacingSizes.xxExtraLarge };
+`;
+
 export const WhatIAm = styled.h1`
     font-family: 'Poppins', sans-serif;
     font-size: ${ fontSizes.xExtraLarge };

@@ -8,6 +8,8 @@ import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 import WorkRoundedIcon from '@material-ui/icons/WorkRounded';
 import PersonRoundedIcon from '@material-ui/icons/PersonRounded';
 
+const getWindowSize = window.screen.width
+
 export const Main = styled.div`
     display: flex;
     align-items: center;
@@ -32,13 +34,13 @@ export const Logo = styled.a`
 `;
 
 export const Title = styled.a`
-    font-size: ${ fontSizes.large };
+    font-size: ${ getWindowSize > 500 ? fontSizes.large : fontSizes.medium };
     font-weight: 700;
-    margin-bottom: -10px;
+    margin-bottom: -8px;
 `;
 
 export const Description = styled.p`
-    font-size: ${ fontSizes.medium };
+    font-size: ${ getWindowSize > 500 ? fontSizes.medium : fontSizes.small };
     font-weight: 400;
 `;
 
@@ -46,13 +48,14 @@ export const Menu = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    width: ${ getWindowSize > 500 ? '400px' : '200px' };
 `;
 
 export const Links = styled(Link)`
     display: flex;
     align-items: center;
     height: 20px;
-    padding: ${ spacingSizes.small };
+    padding: ${ getWindowSize > 500 ? spacingSizes.small : spacingSizes.extraSmall };
     justify-content: center;
     color: ${ colors.mainBlack };
     text-decoration: none;
@@ -63,16 +66,16 @@ export const Links = styled(Link)`
 `;
 
 export const MenuIcon = styled(HomeRoundedIcon)`
-    margin-right: ${ spacingSizes.small };
+    margin-right: ${ getWindowSize > 500 ? spacingSizes.small : spacingSizes.extraSmall };
     padding: ${ spacingSizes.extraSmall };
 `;
 
 export const ExperienceIcon = styled(WorkRoundedIcon)`
-    margin-right: ${ spacingSizes.small };
+    margin-right: ${ getWindowSize > 500 ? spacingSizes.small : spacingSizes.extraSmall };
     padding: ${ spacingSizes.extraSmall };
 `;
 
 export const AboutMeIcon = styled(PersonRoundedIcon)`
-    margin-right: ${ spacingSizes.small };
+    margin-right: ${ getWindowSize > 500 ? spacingSizes.small : spacingSizes.extraSmall };
     padding: ${ spacingSizes.extraSmall };
 `;

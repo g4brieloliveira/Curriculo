@@ -17,10 +17,10 @@ export const Header = () => {
   return (
       <>
         <Main>
-            <Logo href="/">
-              <Title>Gabriel Oliveira</Title>
-              <Description href="/">Mobile and Front End Developer</Description>
-            </Logo>
+          <Logo href="/">
+            <Title>Gabriel Oliveira</Title>
+            <Description href="/">Mobile and Front End Developer</Description>
+          </Logo>
           <Menu>
             <Links to="/"><MenuIcon /> Início</Links>
             <Links to="/experience"><ExperienceIcon /> Experiência</Links>

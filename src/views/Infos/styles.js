@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { colors } from '../../utils/colors'
 import { fontSizes, spacingSizes } from '../../utils/sizes'
 
+const getWindowSize = window.screen.width
+
 export const MainInfosView = styled.div`
     margin-top: ${ spacingSizes.xxExtraLarge };
     padding: ${ spacingSizes.large };
@@ -24,7 +26,7 @@ export const Title = styled.h1`
 `;
 
 export const Link = styled.a`
-    font-size: ${ fontSizes.xxExtraLarge };
+    font-size: ${ getWindowSize > 500 ? fontSizes.xxExtraLarge : fontSizes.xExtraLarge };
     text-decoration: none;
     color: ${ colors.mainBlack };
     font-weight: bold;
@@ -43,7 +45,7 @@ export const InfosTitle = styled.h1`
 `;
 
 export const InfosDescription = styled.p`
-    font-size: ${ fontSizes.medium };
+    font-size: ${ getWindowSize > 500 ? fontSizes.medium : fontSizes.small };
 `;
 
 export const InfosContainer = styled.p`
@@ -55,7 +57,7 @@ export const InfosContainer = styled.p`
 export const InfosLink = styled.a`
     display: flex;
     align-items: center;
-    font-size: ${ fontSizes.medium };
+    font-size: ${ getWindowSize > 500 ? fontSizes.medium : fontSizes.small };
     text-decoration: none;
     color: ${ colors.mainBlack };
 `;
