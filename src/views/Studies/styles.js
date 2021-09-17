@@ -13,11 +13,12 @@ export const StudiesView = styled.div`
 `
 
 export const DuoCard = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 4rem;
+    justify-items: center;
     width: 100%;
-    padding: 10px;
     margin-bottom: ${ spacingSizes.medium };
 `
 

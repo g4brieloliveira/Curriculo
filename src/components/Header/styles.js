@@ -63,6 +63,16 @@ export const Links = styled(Link)`
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     border-right: 1px solid black;
+
+    transition: background 300ms;
+
+    &:hover {
+        background-color: ${ colors.hoverDefaultColor };
+    }
+
+    &:last-child {
+        border-right: 0;
+    }
 `;
 
 export const MenuIcon = styled(HomeRoundedIcon)`

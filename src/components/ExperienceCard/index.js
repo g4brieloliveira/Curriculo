@@ -3,10 +3,10 @@ import React from 'react'
 import {
     CardView,
     UpperInfos,
-    CourseInfo
+    CourseInfo,
 } from './styles'
 
-export const Card = ({data, local, course, photo}) => {
+export const ExperienceCard = ({data, local, course, photo}) => {
     return (  
         <CardView>
             <UpperInfos>

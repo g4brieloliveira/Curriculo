@@ -3,8 +3,6 @@ import styled from "styled-components";
 import { colors } from '../../utils/colors'
 import { fontSizes, spacingSizes } from '../../utils/sizes'
 
-const getWindowSize = window.screen.width
-
 export const MainInfosView = styled.div`
     margin-top: ${ spacingSizes.xxExtraLarge };
     padding: ${ spacingSizes.large };
@@ -26,10 +24,14 @@ export const Title = styled.h1`
 `;
 
 export const Link = styled.a`
-    font-size: ${ getWindowSize > 500 ? fontSizes.xxExtraLarge : fontSizes.xExtraLarge };
+    font-size: ${ fontSizes.xxExtraLarge };
     text-decoration: none;
     color: ${ colors.mainBlack };
     font-weight: bold;
+
+    &:hover {
+        text-decoration: underline;
+    }
 `;
 
 export const Info = styled.div`
@@ -45,7 +47,7 @@ export const InfosTitle = styled.h1`
 `;
 
 export const InfosDescription = styled.p`
-    font-size: ${ getWindowSize > 500 ? fontSizes.medium : fontSizes.small };
+    font-size: ${ fontSizes.medium };
 `;
 
 export const InfosContainer = styled.p`
@@ -57,9 +59,13 @@ export const InfosContainer = styled.p`
 export const InfosLink = styled.a`
     display: flex;
     align-items: center;
-    font-size: ${ getWindowSize > 500 ? fontSizes.medium : fontSizes.small };
+    font-size: ${ fontSizes.medium };
     text-decoration: none;
     color: ${ colors.mainBlack };
+
+    &:hover {
+        text-decoration: underline;
+    }
 `;
 
 export const SocialMedias = styled.div`

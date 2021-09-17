@@ -22,9 +22,9 @@ export const Header = () => {
             <Description href="/">Mobile and Front End Developer</Description>
           </Logo>
           <Menu>
-            <Links to="/"><MenuIcon /> Início</Links>
-            <Links to="/experience"><ExperienceIcon /> Experiência</Links>
-            <Links to="/about" style={{ border: 0 }}><AboutMeIcon /> Sobre mim</Links>   
+            <Links to="/"><MenuIcon /> <p>Início</p></Links>
+            <Links to="/experience"><ExperienceIcon /> <p>Experiência</p></Links>
+            <Links to="/about"><AboutMeIcon /><p>Sobre mim</p></Links>   
           </Menu>
         </Main>
       </>

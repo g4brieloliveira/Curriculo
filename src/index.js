@@ -5,7 +5,7 @@ import {Header} from './components/Header';
 import {Footer} from './components/Footer';
 
 import {Home} from './views/Home/';
-import Experience from './views/Experience/';
+import {Experience} from './views/Experience/';
 import About from './views/About/';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -22,7 +22,6 @@ ReactDOM.render(
           </Switch>
         <Footer />
       </>
-    
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,5 +1,6 @@
 export const colors = {
-    defaultColor: '#ffffffcc',
+    defaultColor: '#ffffffdd',
+    hoverDefaultColor: '#00000022',
 
     mainWhite: '#FFF',
     mainBlack: '#000',
